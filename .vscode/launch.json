@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: 调试当前文件",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "stopOnEntry": true,
+      "justMyCode": true
+    },
+    {
+      "name": "Python: 调试学生管理程序",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/2026_5_25_p/student_management.py",
+      "console": "integratedTerminal",
+      "stopOnEntry": true,
+      "justMyCode": true
+    }
+  ]
+}
